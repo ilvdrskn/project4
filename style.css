@@ -23,7 +23,7 @@ main{
 
 .cardholder{
     width: 25%;
-    height: 80%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     padding:20px;
@@ -33,7 +33,7 @@ main{
 
 h1{
     color: white;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 h1:hover {
@@ -87,6 +87,7 @@ img{
 
 p{
     margin: 0 0 1.2em 0;
+    font-size:1.5em;
 }
 
 .avatar{
