@@ -23,7 +23,7 @@ main{
 
 .cardholder{
     width: 25%;
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     padding:20px;
