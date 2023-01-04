@@ -50,6 +50,7 @@ h1:hover {
     background-size: cover;
     border-radius: inherit;
     position: relative;
+    flex-shrink: 0;
 }
 
 .overlay{
@@ -107,4 +108,18 @@ p{
 span:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+@media screen and (max-width:600px) and (min-width: 400px) {
+    .cardholder{
+        flex-basis: 60%;
+    }
+
+    .picholder{
+        flex-shrink: 1;
+    }
+
+    body{
+        font-size: 10px;
+    }
 }
