@@ -113,6 +113,7 @@ span:hover {
 @media screen and (max-width:600px) and (min-width: 400px) {
     .cardholder{
         flex-basis: 60%;
+        height: 60%;
     }
 
     .picholder{
