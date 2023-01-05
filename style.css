@@ -19,10 +19,11 @@ main{
     justify-content: center;
     align-items: center;
     background-color: hsl(217, 54%, 11%);
+    flex-wrap: wrap;
 }
 
 .cardholder{
-    width: 25%;
+    max-width: 400px;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -86,10 +87,6 @@ img{
     color:hsl(178, 100%, 50%);
 }
 
-p{
-    margin: 0 0 1.2em 0;
-    font-size:1.5em;
-}
 
 .avatar{
     width: 2em;
@@ -110,17 +107,7 @@ span:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width:600px) and (min-width: 400px) {
-    .cardholder{
-        flex-basis: 60%;
-        height: 60%;
-    }
-
-    .picholder{
-        flex-shrink: 1;
-    }
-
-    body{
-        font-size: 10px;
-    }
+footer{
+    justify-self: flex-end;
+    align-self: flex-end;
 }
